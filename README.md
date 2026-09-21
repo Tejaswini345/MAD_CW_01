@@ -28,25 +28,25 @@ confirmation-gated reset.
 
 ## Script structure
 
-```
+
 lib/main.dart          the entire app
 test/widget_test.dart  smoke test: app launches, Increment updates the counter
 assets/image1.png      day city (default image)
 assets/image2.png      night city
-```
+
 
 ## Running it
 
-```
+
 flutter pub get
 flutter run, for a device/emulator
-```
+
 
 ## To build the release APK
 
-```
+
 flutter build apk --release
-```
+
 Output: `build/app/outputs/flutter-apk/app-release.apk`
 
 ## Technology used
